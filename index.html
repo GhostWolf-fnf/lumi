@@ -1,1 +1,166 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lumi</title><link rel="stylesheet" href="style.css"></head><body><main id="app"><section id="companion"><div id="character" class="emotion-normal"><img id="avatarImage" src="images/normal.png" alt="Lumi"></div><div id="speechBubble" class="speech-hidden">Oi! Eu sou a Lumi. ♡</div><div id="stateBadge">Normal</div></section><section id="chatPanel"><div id="chatHeader"><b>Lumi</b><span id="connectionStatus">● verificando</span></div><div id="messages"></div><div id="typing" hidden>Lumi está pensando...</div><div id="inputRow"><input id="messageInput" placeholder="Fale comigo..."><button id="micBtn">🎙</button><button id="sendBtn">➤</button></div></section><section id="controls"><button id="talkBtn">🎤 Falar</button><button id="testBtn">✨ Emoções</button><button id="moveBtn">↔ Mover</button><button id="repeatBtn">🔊 Repetir</button></section><section id="settingsPanel" class="modal hidden"><div class="modalCard"><h2>Configurações</h2><label>Nome<input id="nameSetting" value="Lumi"></label><label>Velocidade<input id="rateSetting" type="number" min=".5" max="2" step=".05" value="1.05"></label><label>Tom<input id="pitchSetting" type="number" min=".5" max="2" step=".05" value="1.25"></label><button id="saveSettingsBtn">Salvar</button><button id="closeSettingsBtn">Fechar</button></div></section></main><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main id="app">
+
+    <section id="companion">
+
+      <div id="character" class="emotion-normal">
+        <img
+          id="avatarImage"
+          src="normal.png"
+          alt="Lumi"
+        >
+      </div>
+
+      <div id="speechBubble" class="speech-hidden">
+        Oi! Eu sou a Lumi. ♡
+      </div>
+
+      <div id="stateBadge">
+        Normal
+      </div>
+
+    </section>
+
+
+    <section id="chatPanel">
+
+      <div id="chatHeader">
+        <b>Lumi</b>
+        <span id="connectionStatus">
+          ● verificando
+        </span>
+      </div>
+
+
+      <div id="messages"></div>
+
+
+      <div id="typing" hidden>
+        Lumi está pensando...
+      </div>
+
+
+      <div id="inputRow">
+
+        <input
+          id="messageInput"
+          placeholder="Fale comigo..."
+          autocomplete="off"
+        >
+
+        <button id="micBtn">
+          🎙
+        </button>
+
+        <button id="sendBtn">
+          ➤
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <section id="controls">
+
+      <button id="talkBtn">
+        🎤 Falar
+      </button>
+
+      <button id="testBtn">
+        ✨ Emoções
+      </button>
+
+      <button id="moveBtn">
+        ↔ Mover
+      </button>
+
+      <button id="repeatBtn">
+        🔊 Repetir
+      </button>
+
+    </section>
+
+
+    <section
+      id="settingsPanel"
+      class="modal hidden"
+    >
+
+      <div class="modalCard">
+
+        <h2>
+          Configurações
+        </h2>
+
+
+        <label>
+          Nome
+
+          <input
+            id="nameSetting"
+            value="Lumi"
+          >
+        </label>
+
+
+        <label>
+          Velocidade
+
+          <input
+            id="rateSetting"
+            type="number"
+            min=".5"
+            max="2"
+            step=".05"
+            value="1.05"
+          >
+        </label>
+
+
+        <label>
+          Tom
+
+          <input
+            id="pitchSetting"
+            type="number"
+            min=".5"
+            max="2"
+            step=".05"
+            value="1.25"
+          >
+        </label>
+
+
+        <button id="saveSettingsBtn">
+          Salvar
+        </button>
+
+
+        <button id="closeSettingsBtn">
+          Fechar
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
