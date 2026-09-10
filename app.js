@@ -7,15 +7,15 @@ const CONFIG = {
 };
 
 const AVATARS = {
-  normal: "images/normal.png",
-  happy: "images/feliz.png",
-  listening: "images/ouvindo.png",
-  thinking: "images/pensando.png",
-  speaking: "images/falando.png",
-  surprised: "images/surpresa.png",
-  sad: "images/triste.png",
-  angry: "images/brava.png",
-  excited: "images/animada.png"
+  normal: "normal.png",
+  happy: "feliz.png",
+  listening: "ouvindo.png",
+  thinking: "pensando.png",
+  speaking: "falando.png",
+  surprised: "surpresa.png",
+  sad: "triste.png",
+  angry: "brava.png",
+  excited: "animada.png"
 };
 
 const LABELS = {
